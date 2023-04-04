@@ -1,7 +1,7 @@
 import GameSaving from '../GameSaving';
 import GameSavingLoader from '../GameSavingLoader';
 
-test('load json from GameSaving', async (done) => {
+test('load gameSaving json', async (done) => {
   const gameSaving = new GameSaving({
     id: 9,
     created: 1546300800,
